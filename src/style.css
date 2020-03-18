@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(204, 255, 169);
+}
+
+.outerCircle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: lightgray;
+    display: flex;
+}
+
+.circle {
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: gray;
+    /* background: ; */
+}
+
+.NavBar {
+    height: 100px;
+    background: greenyellow;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
